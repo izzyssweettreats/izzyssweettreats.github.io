@@ -1,0 +1,46 @@
+@font-face {
+  font-family: anandaHandwriting;
+  src: url('ananda-black-font/AnandaBlackPersonalUseRegular-rg9Rx.ttf');
+}
+
+@font-face { /* This doesn't work */
+    font-family: sacrificeHandwriting;
+    src: url('sacrifice-font/SacrificeDemo-8Ox1B.ttf');
+}
+
+@font-face {
+    font-family: cameliya;
+    src: url('cameliya/Cameliya.otf')
+}
+
+h1 {
+    font-size: 80px;
+}
+
+body {
+    background: linear-gradient(to bottom right,rgba(224, 137, 213),  rgba(245, 242, 220));
+    background-attachment: fixed;
+    background-size: cover;
+    
+    margin: 0;
+    padding: 0;
+    
+    font-family: cameliya, anandaHandwriting, cursive;
+
+    text-align: center;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000,
+       5px 5px 10px rgba(216, 67, 139, 0.7);
+    color:rgb(240, 252, 175);
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+ 
